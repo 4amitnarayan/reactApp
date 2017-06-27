@@ -1,0 +1,110 @@
+/*-------------------Tabs Class---------------*/
+.tabs-wrapper {
+
+}
+
+ul.tabs-nav {
+    list-style: none;
+    margin: 0px 0px 0 0px;
+    padding:0;
+    border: 1px solid #ccc;
+    border-radius:5px
+}
+
+ul.tabs-nav li {
+    display: inline-block;
+    margin: 0 0px 0 0;
+    width:50%
+}
+
+ul.tabs-nav li a {
+    padding: 20px 40px;
+    display: inline-block;
+    text-decoration: none;
+    width:100%;
+    text-align: center;
+}
+
+ul.tabs-nav li a:hover {
+    background: #f1f1f1;
+    text-decoration: none;
+}
+
+ul.tabs-nav li.active a {
+    background: #f1f1f1;
+    text-decoration: none;
+    width:100%;
+}
+
+.tabs-content {
+
+}
+
+.tabs-content div.tab-panel {
+    display: none;
+    visibility: hidden;
+}
+
+.tabs-content div.tab-panel.active {
+    display: block;
+    visibility: visible;
+}
+
+/*--------- Chekbox & Flex Class -------------*/
+.checkBox-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+.customCheckBox {
+  width: 175px;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.customCheckBox label {
+    float:left;
+    width:100%;
+    margin: 0px;
+}
+
+.customCheckBox label span {
+    text-align:center;
+    padding: 30px 0px;
+    display:block;
+    color:#ccc;
+    border:2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.customCheckBox label input {
+    display: none;
+}
+
+.customCheckBox input:checked + span {
+  border-color: #428bca;
+  color: #428bca;
+  padding: 30px s0px;
+}
+
+/*Default Btn*/
+.btn-primary {
+  padding: 20px 68px;
+  margin-left: -15px;
+}
+
+/*Spacing*/
+.tabTwoSpace{
+  margin-top:15px;
+  margin-bottom: 20px;
+}
